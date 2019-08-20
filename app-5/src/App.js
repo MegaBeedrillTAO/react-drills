@@ -1,18 +1,11 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Image from "./components/Image";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Image source="https://www.stupid.com/thumbnail.asp?file=/assets/images/graphics/00000001/horsemask1.jpg&maxx=400&maxy=0"/>
       </div>
     );
   }
